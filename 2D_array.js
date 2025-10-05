@@ -27,7 +27,7 @@ let theaterSeating = Array(3);
 for (let i = 0; i < theaterSeating.length; i++) {
     theaterSeating[i] = []; 
     for (let k = 0; k < 4; k++){
-        theaterSeating[i][k] = String.fromCharCode("A".charCodeAt(0) + i) + `${k}`;
+        theaterSeating[i][k] = String.fromCharCode("A".charCodeAt(0) + i) + `${k + 1}`;
     }
 };
 console.log(theaterSeating);
